@@ -1,9 +1,9 @@
-﻿using Montecarlo_Inventario.Modelo;
+﻿using TP_Final.Modelo;
 using System;
 using System.Data;
 using System.Windows.Forms;
 
-namespace Montecarlo_Inventario.Presentacion
+namespace TP_Final.Presentacion
 {
     public partial class frm_index : Form
     {
@@ -52,8 +52,8 @@ namespace Montecarlo_Inventario.Presentacion
             if (validateParameters())
             {
                 //Creación de objetos Mantenimiento
-                Motor mPreventivo = new Motor((double)nudCostoArreglo.Value, (double)nudCostoRevision.Value, (int)nudDiasRevision.Value, true, (double)nudProb4dias.Value, (double)nudProb5dias.Value, (double)nudProb6dias.Value, (int)nudSimDesde.Value);
-                Motor mCorrectivo = new Motor((double)nudCostoArreglo.Value, (double)nudProb4dias.Value, (double)nudProb5dias.Value, (double)nudProb6dias.Value, (int)nudSimDesde.Value);
+                PoliticasAyB mPreventivo = new PoliticasAyB((double)nudCostoArreglo.Value, (double)nudCostoRevision.Value, (int)nudDiasRevision.Value, true, (double)nudProb4dias.Value, (double)nudProb5dias.Value, (double)nudProb6dias.Value, (int)nudSimDesde.Value);
+                PoliticasAyB mCorrectivo = new PoliticasAyB((double)nudCostoArreglo.Value, (double)nudProb4dias.Value, (double)nudProb5dias.Value, (double)nudProb6dias.Value, (int)nudSimDesde.Value);
 
                 //Generación de experimentos y pedido de tablas
                 mPreventivo.calcularExperimento((int)nudCantSim.Value);
@@ -74,7 +74,7 @@ namespace Montecarlo_Inventario.Presentacion
             }
         }
 
-        private void mostrarMetricas(Motor preventivo, Motor correctivo)
+        private void mostrarMetricas(PoliticasAyB preventivo, PoliticasAyB correctivo)
         {
             //Mantenimiento Correctivo
             lblCantAveriasCorrectivoValue.Text = correctivo.ContadorAverias.ToString();

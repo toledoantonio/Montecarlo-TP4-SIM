@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Data;
 
-namespace Montecarlo_Inventario.Modelo
+namespace TP_Final.Modelo
 {
-    internal class Motor
+    internal class PoliticasAyB
     {
         //Atributos
         private double costArreglo, costRevision;
@@ -20,7 +20,7 @@ namespace Montecarlo_Inventario.Modelo
         int mostrarDesde;
 
         //Constructor Mantenimiento Correctivo
-        public Motor(double ka, double p1, double p2, double p3, int mostrarDesde)
+        public PoliticasAyB(double ka, double p1, double p2, double p3, int mostrarDesde)
         {
             this.costArreglo = ka;
             costRevision = 0;
@@ -35,7 +35,7 @@ namespace Montecarlo_Inventario.Modelo
         }
 
         //Constructor Mantenimiento Preventivo
-        public Motor(double ka, double kr, int diasParaRevision, bool esPreventivo, double p1, double p2, double p3, int mostrarDesde)
+        public PoliticasAyB(double ka, double kr, int diasParaRevision, bool esPreventivo, double p1, double p2, double p3, int mostrarDesde)
         {
             this.costArreglo = ka;
             this.esPreventivo = esPreventivo;

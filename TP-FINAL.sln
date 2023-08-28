@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP4-Montecarlo-SIM", "TP4-Montecarlo-SIM.csproj", "{387682EE-4654-4924-897B-51CAD96A2981}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP-FINAL-EJERCICIO-8", "TP-FINAL-EJERCICIO-8.csproj", "{387682EE-4654-4924-897B-51CAD96A2981}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

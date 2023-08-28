@@ -1,5 +1,5 @@
 ﻿
-namespace Montecarlo_Inventario.Presentacion
+namespace TP_Final.Presentacion
 {
     partial class frm_index
 {

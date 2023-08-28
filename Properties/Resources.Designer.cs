@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Montecarlo_Inventario.Properties {
+namespace TP_Final.Properties {
     using System;
     
     

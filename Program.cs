@@ -1,11 +1,11 @@
-﻿using Montecarlo_Inventario.Presentacion;
+﻿using TP_Final.Presentacion;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Montecarlo_Inventario
+namespace TP_Final
 {
     static class Program
     {
