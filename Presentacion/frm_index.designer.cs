@@ -88,6 +88,28 @@ namespace TP_Final.Presentacion
             this.label1 = new System.Windows.Forms.Label();
             this.dgvTablaCorrectivo = new System.Windows.Forms.DataGridView();
             this.dgvCorrectivoFinal = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.nudProb0decenas = new System.Windows.Forms.NumericUpDown();
+            this.nudProb1decena = new System.Windows.Forms.NumericUpDown();
+            this.nudProb2decenas = new System.Windows.Forms.NumericUpDown();
+            this.nudProb3decenas = new System.Windows.Forms.NumericUpDown();
+            this.nudProb4decenas = new System.Windows.Forms.NumericUpDown();
+            this.nudProb5decenas = new System.Windows.Forms.NumericUpDown();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.nudCosto0y15decenas = new System.Windows.Forms.NumericUpDown();
+            this.nudCosto16y40decenas = new System.Windows.Forms.NumericUpDown();
+            this.nudCostoMas40decenas = new System.Windows.Forms.NumericUpDown();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTablaPreventivo)).BeginInit();
@@ -112,6 +134,15 @@ namespace TP_Final.Presentacion
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTablaCorrectivo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCorrectivoFinal)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb0decenas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb1decena)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb2decenas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb3decenas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb4decenas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb5decenas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCosto0y15decenas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCosto16y40decenas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCostoMas40decenas)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -134,7 +165,7 @@ namespace TP_Final.Presentacion
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1087, 643);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1380, 917);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // panel3
@@ -145,10 +176,10 @@ namespace TP_Final.Presentacion
             this.panel3.Controls.Add(this.dgvTablaPreventivo);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.dgvPreventivoFinal);
-            this.panel3.Location = new System.Drawing.Point(313, 323);
+            this.panel3.Location = new System.Drawing.Point(313, 460);
             this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(517, 318);
+            this.panel3.Size = new System.Drawing.Size(810, 455);
             this.panel3.TabIndex = 68;
             // 
             // dgvTablaPreventivo
@@ -179,7 +210,7 @@ namespace TP_Final.Presentacion
             this.dgvTablaPreventivo.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvTablaPreventivo.RowTemplate.Height = 24;
             this.dgvTablaPreventivo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvTablaPreventivo.Size = new System.Drawing.Size(507, 255);
+            this.dgvTablaPreventivo.Size = new System.Drawing.Size(800, 392);
             this.dgvTablaPreventivo.TabIndex = 58;
             // 
             // label2
@@ -211,7 +242,7 @@ namespace TP_Final.Presentacion
             this.dgvPreventivoFinal.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvPreventivoFinal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvPreventivoFinal.ColumnHeadersVisible = false;
-            this.dgvPreventivoFinal.Location = new System.Drawing.Point(5, 283);
+            this.dgvPreventivoFinal.Location = new System.Drawing.Point(5, 420);
             this.dgvPreventivoFinal.Margin = new System.Windows.Forms.Padding(2);
             this.dgvPreventivoFinal.Name = "dgvPreventivoFinal";
             this.dgvPreventivoFinal.ReadOnly = true;
@@ -220,13 +251,13 @@ namespace TP_Final.Presentacion
             this.dgvPreventivoFinal.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvPreventivoFinal.RowTemplate.Height = 24;
             this.dgvPreventivoFinal.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvPreventivoFinal.Size = new System.Drawing.Size(507, 29);
+            this.dgvPreventivoFinal.Size = new System.Drawing.Size(800, 29);
             this.dgvPreventivoFinal.TabIndex = 60;
             // 
             // panel5
             // 
             this.panel5.Controls.Add(this.gbMetricasPreventivo);
-            this.panel5.Location = new System.Drawing.Point(834, 323);
+            this.panel5.Location = new System.Drawing.Point(1127, 460);
             this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(250, 188);
@@ -344,7 +375,7 @@ namespace TP_Final.Presentacion
             // panel1
             // 
             this.panel1.Controls.Add(this.gbMetricasCorrectivo);
-            this.panel1.Location = new System.Drawing.Point(834, 2);
+            this.panel1.Location = new System.Drawing.Point(1127, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(250, 154);
@@ -429,13 +460,13 @@ namespace TP_Final.Presentacion
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
             this.tableLayoutPanel1.SetRowSpan(this.panel2, 2);
-            this.panel2.Size = new System.Drawing.Size(302, 631);
+            this.panel2.Size = new System.Drawing.Size(302, 911);
             this.panel2.TabIndex = 63;
             // 
             // gbResultado
             // 
             this.gbResultado.Controls.Add(this.lblResultado);
-            this.gbResultado.Location = new System.Drawing.Point(6, 472);
+            this.gbResultado.Location = new System.Drawing.Point(7, 777);
             this.gbResultado.Margin = new System.Windows.Forms.Padding(2);
             this.gbResultado.Name = "gbResultado";
             this.gbResultado.Padding = new System.Windows.Forms.Padding(2);
@@ -460,6 +491,14 @@ namespace TP_Final.Presentacion
             // 
             // gbParametros
             // 
+            this.gbParametros.Controls.Add(this.nudCostoMas40decenas);
+            this.gbParametros.Controls.Add(this.nudCosto16y40decenas);
+            this.gbParametros.Controls.Add(this.nudCosto0y15decenas);
+            this.gbParametros.Controls.Add(this.label15);
+            this.gbParametros.Controls.Add(this.label14);
+            this.gbParametros.Controls.Add(this.label13);
+            this.gbParametros.Controls.Add(this.label12);
+            this.gbParametros.Controls.Add(this.label11);
             this.gbParametros.Controls.Add(this.nudDiasRevision);
             this.gbParametros.Controls.Add(this.nudCantSim);
             this.gbParametros.Controls.Add(this.lblCostoRevision);
@@ -474,7 +513,7 @@ namespace TP_Final.Presentacion
             this.gbParametros.Margin = new System.Windows.Forms.Padding(2);
             this.gbParametros.Name = "gbParametros";
             this.gbParametros.Padding = new System.Windows.Forms.Padding(2);
-            this.gbParametros.Size = new System.Drawing.Size(290, 226);
+            this.gbParametros.Size = new System.Drawing.Size(290, 315);
             this.gbParametros.TabIndex = 0;
             this.gbParametros.TabStop = false;
             this.gbParametros.Text = "Parámetros";
@@ -482,7 +521,7 @@ namespace TP_Final.Presentacion
             // nudDiasRevision
             // 
             this.nudDiasRevision.BackColor = System.Drawing.Color.LemonChiffon;
-            this.nudDiasRevision.Location = new System.Drawing.Point(192, 195);
+            this.nudDiasRevision.Location = new System.Drawing.Point(192, 160);
             this.nudDiasRevision.Margin = new System.Windows.Forms.Padding(2);
             this.nudDiasRevision.Name = "nudDiasRevision";
             this.nudDiasRevision.Size = new System.Drawing.Size(75, 20);
@@ -498,7 +537,7 @@ namespace TP_Final.Presentacion
             // nudCantSim
             // 
             this.nudCantSim.BackColor = System.Drawing.Color.LemonChiffon;
-            this.nudCantSim.Location = new System.Drawing.Point(192, 32);
+            this.nudCantSim.Location = new System.Drawing.Point(192, 24);
             this.nudCantSim.Margin = new System.Windows.Forms.Padding(2);
             this.nudCantSim.Maximum = new decimal(new int[] {
             100000000,
@@ -508,13 +547,18 @@ namespace TP_Final.Presentacion
             this.nudCantSim.Name = "nudCantSim";
             this.nudCantSim.Size = new System.Drawing.Size(75, 20);
             this.nudCantSim.TabIndex = 0;
+            this.nudCantSim.Value = new decimal(new int[] {
+            300,
+            0,
+            0,
+            0});
             this.nudCantSim.Click += new System.EventHandler(this.numActive);
             this.nudCantSim.Enter += new System.EventHandler(this.numActive);
             // 
             // lblCostoRevision
             // 
             this.lblCostoRevision.AutoSize = true;
-            this.lblCostoRevision.Location = new System.Drawing.Point(89, 156);
+            this.lblCostoRevision.Location = new System.Drawing.Point(89, 128);
             this.lblCostoRevision.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCostoRevision.Name = "lblCostoRevision";
             this.lblCostoRevision.Size = new System.Drawing.Size(96, 13);
@@ -525,7 +569,7 @@ namespace TP_Final.Presentacion
             // 
             this.nudCostoArreglo.BackColor = System.Drawing.Color.LemonChiffon;
             this.nudCostoArreglo.DecimalPlaces = 2;
-            this.nudCostoArreglo.Location = new System.Drawing.Point(192, 114);
+            this.nudCostoArreglo.Location = new System.Drawing.Point(192, 91);
             this.nudCostoArreglo.Margin = new System.Windows.Forms.Padding(2);
             this.nudCostoArreglo.Maximum = new decimal(new int[] {
             100000,
@@ -546,7 +590,7 @@ namespace TP_Final.Presentacion
             // lblDiasRevision
             // 
             this.lblDiasRevision.AutoSize = true;
-            this.lblDiasRevision.Location = new System.Drawing.Point(64, 197);
+            this.lblDiasRevision.Location = new System.Drawing.Point(64, 162);
             this.lblDiasRevision.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDiasRevision.Name = "lblDiasRevision";
             this.lblDiasRevision.Size = new System.Drawing.Size(124, 13);
@@ -556,7 +600,7 @@ namespace TP_Final.Presentacion
             // lblCostoArreglo
             // 
             this.lblCostoArreglo.AutoSize = true;
-            this.lblCostoArreglo.Location = new System.Drawing.Point(96, 115);
+            this.lblCostoArreglo.Location = new System.Drawing.Point(96, 92);
             this.lblCostoArreglo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCostoArreglo.Name = "lblCostoArreglo";
             this.lblCostoArreglo.Size = new System.Drawing.Size(88, 13);
@@ -566,7 +610,7 @@ namespace TP_Final.Presentacion
             // lblCantSim
             // 
             this.lblCantSim.AutoSize = true;
-            this.lblCantSim.Location = new System.Drawing.Point(56, 34);
+            this.lblCantSim.Location = new System.Drawing.Point(56, 26);
             this.lblCantSim.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCantSim.Name = "lblCantSim";
             this.lblCantSim.Size = new System.Drawing.Size(132, 13);
@@ -577,7 +621,7 @@ namespace TP_Final.Presentacion
             // 
             this.nudCostoRevision.BackColor = System.Drawing.Color.LemonChiffon;
             this.nudCostoRevision.DecimalPlaces = 2;
-            this.nudCostoRevision.Location = new System.Drawing.Point(192, 154);
+            this.nudCostoRevision.Location = new System.Drawing.Point(192, 126);
             this.nudCostoRevision.Margin = new System.Windows.Forms.Padding(2);
             this.nudCostoRevision.Maximum = new decimal(new int[] {
             100000,
@@ -598,7 +642,7 @@ namespace TP_Final.Presentacion
             // lblSimDesde
             // 
             this.lblSimDesde.AutoSize = true;
-            this.lblSimDesde.Location = new System.Drawing.Point(12, 74);
+            this.lblSimDesde.Location = new System.Drawing.Point(12, 57);
             this.lblSimDesde.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSimDesde.Name = "lblSimDesde";
             this.lblSimDesde.Size = new System.Drawing.Size(173, 13);
@@ -608,7 +652,7 @@ namespace TP_Final.Presentacion
             // nudSimDesde
             // 
             this.nudSimDesde.BackColor = System.Drawing.Color.LemonChiffon;
-            this.nudSimDesde.Location = new System.Drawing.Point(192, 73);
+            this.nudSimDesde.Location = new System.Drawing.Point(192, 56);
             this.nudSimDesde.Margin = new System.Windows.Forms.Padding(2);
             this.nudSimDesde.Maximum = new decimal(new int[] {
             100000000,
@@ -623,6 +667,20 @@ namespace TP_Final.Presentacion
             // 
             // gbProbabilidades
             // 
+            this.gbProbabilidades.Controls.Add(this.nudProb5decenas);
+            this.gbProbabilidades.Controls.Add(this.nudProb4decenas);
+            this.gbProbabilidades.Controls.Add(this.nudProb3decenas);
+            this.gbProbabilidades.Controls.Add(this.nudProb2decenas);
+            this.gbProbabilidades.Controls.Add(this.nudProb1decena);
+            this.gbProbabilidades.Controls.Add(this.nudProb0decenas);
+            this.gbProbabilidades.Controls.Add(this.label10);
+            this.gbProbabilidades.Controls.Add(this.label9);
+            this.gbProbabilidades.Controls.Add(this.label8);
+            this.gbProbabilidades.Controls.Add(this.label7);
+            this.gbProbabilidades.Controls.Add(this.label6);
+            this.gbProbabilidades.Controls.Add(this.label5);
+            this.gbProbabilidades.Controls.Add(this.label4);
+            this.gbProbabilidades.Controls.Add(this.label3);
             this.gbProbabilidades.Controls.Add(this.nudProb7dias);
             this.gbProbabilidades.Controls.Add(this.nudProb6dias);
             this.gbProbabilidades.Controls.Add(this.nudProb5dias);
@@ -631,9 +689,9 @@ namespace TP_Final.Presentacion
             this.gbProbabilidades.Controls.Add(this.lbl_6dias);
             this.gbProbabilidades.Controls.Add(this.lbl_5dias);
             this.gbProbabilidades.Controls.Add(this.lbl_4dias);
-            this.gbProbabilidades.Location = new System.Drawing.Point(6, 236);
+            this.gbProbabilidades.Location = new System.Drawing.Point(6, 326);
             this.gbProbabilidades.Name = "gbProbabilidades";
-            this.gbProbabilidades.Size = new System.Drawing.Size(291, 158);
+            this.gbProbabilidades.Size = new System.Drawing.Size(291, 390);
             this.gbProbabilidades.TabIndex = 1;
             this.gbProbabilidades.TabStop = false;
             this.gbProbabilidades.Text = "Probabilidades";
@@ -788,7 +846,7 @@ namespace TP_Final.Presentacion
             this.btnGenerar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGenerar.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerar.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnGenerar.Location = new System.Drawing.Point(156, 400);
+            this.btnGenerar.Location = new System.Drawing.Point(157, 728);
             this.btnGenerar.Margin = new System.Windows.Forms.Padding(2);
             this.btnGenerar.Name = "btnGenerar";
             this.btnGenerar.Size = new System.Drawing.Size(140, 43);
@@ -802,7 +860,7 @@ namespace TP_Final.Presentacion
             this.btnRestablecer.BackColor = System.Drawing.Color.IndianRed;
             this.btnRestablecer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRestablecer.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRestablecer.Location = new System.Drawing.Point(6, 400);
+            this.btnRestablecer.Location = new System.Drawing.Point(6, 728);
             this.btnRestablecer.Margin = new System.Windows.Forms.Padding(2);
             this.btnRestablecer.Name = "btnRestablecer";
             this.btnRestablecer.Size = new System.Drawing.Size(140, 43);
@@ -822,7 +880,7 @@ namespace TP_Final.Presentacion
             this.panel4.Location = new System.Drawing.Point(313, 2);
             this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(517, 317);
+            this.panel4.Size = new System.Drawing.Size(810, 454);
             this.panel4.TabIndex = 67;
             // 
             // label1
@@ -863,7 +921,7 @@ namespace TP_Final.Presentacion
             this.dgvTablaCorrectivo.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvTablaCorrectivo.RowTemplate.Height = 24;
             this.dgvTablaCorrectivo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvTablaCorrectivo.Size = new System.Drawing.Size(507, 254);
+            this.dgvTablaCorrectivo.Size = new System.Drawing.Size(800, 391);
             this.dgvTablaCorrectivo.TabIndex = 62;
             // 
             // dgvCorrectivoFinal
@@ -885,7 +943,7 @@ namespace TP_Final.Presentacion
             this.dgvCorrectivoFinal.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvCorrectivoFinal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCorrectivoFinal.ColumnHeadersVisible = false;
-            this.dgvCorrectivoFinal.Location = new System.Drawing.Point(5, 278);
+            this.dgvCorrectivoFinal.Location = new System.Drawing.Point(5, 415);
             this.dgvCorrectivoFinal.Margin = new System.Windows.Forms.Padding(2);
             this.dgvCorrectivoFinal.Name = "dgvCorrectivoFinal";
             this.dgvCorrectivoFinal.ReadOnly = true;
@@ -894,22 +952,349 @@ namespace TP_Final.Presentacion
             this.dgvCorrectivoFinal.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.dgvCorrectivoFinal.RowTemplate.Height = 24;
             this.dgvCorrectivoFinal.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgvCorrectivoFinal.Size = new System.Drawing.Size(507, 29);
+            this.dgvCorrectivoFinal.Size = new System.Drawing.Size(800, 29);
             this.dgvCorrectivoFinal.TabIndex = 63;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(195, 174);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Probabilidad";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(118, 174);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Demanda";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(113, 211);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(62, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "0 Decenas:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(118, 240);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(57, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "1 Decena:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(113, 267);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(62, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "2 Decenas:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(113, 296);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(62, 13);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "3 Decenas:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(113, 325);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(62, 13);
+            this.label9.TabIndex = 10;
+            this.label9.Text = "4 Decenas:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(113, 355);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(62, 13);
+            this.label10.TabIndex = 11;
+            this.label10.Text = "5 Decenas:";
+            // 
+            // nudProb0decenas
+            // 
+            this.nudProb0decenas.BackColor = System.Drawing.Color.LemonChiffon;
+            this.nudProb0decenas.DecimalPlaces = 2;
+            this.nudProb0decenas.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nudProb0decenas.Location = new System.Drawing.Point(189, 206);
+            this.nudProb0decenas.Margin = new System.Windows.Forms.Padding(2);
+            this.nudProb0decenas.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudProb0decenas.Name = "nudProb0decenas";
+            this.nudProb0decenas.Size = new System.Drawing.Size(75, 20);
+            this.nudProb0decenas.TabIndex = 12;
+            this.nudProb0decenas.Value = new decimal(new int[] {
+            5,
+            0,
+            0,
+            131072});
+            // 
+            // nudProb1decena
+            // 
+            this.nudProb1decena.BackColor = System.Drawing.Color.LemonChiffon;
+            this.nudProb1decena.DecimalPlaces = 2;
+            this.nudProb1decena.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nudProb1decena.Location = new System.Drawing.Point(189, 234);
+            this.nudProb1decena.Margin = new System.Windows.Forms.Padding(2);
+            this.nudProb1decena.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudProb1decena.Name = "nudProb1decena";
+            this.nudProb1decena.Size = new System.Drawing.Size(75, 20);
+            this.nudProb1decena.TabIndex = 13;
+            this.nudProb1decena.Value = new decimal(new int[] {
+            12,
+            0,
+            0,
+            131072});
+            // 
+            // nudProb2decenas
+            // 
+            this.nudProb2decenas.BackColor = System.Drawing.Color.LemonChiffon;
+            this.nudProb2decenas.DecimalPlaces = 2;
+            this.nudProb2decenas.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nudProb2decenas.Location = new System.Drawing.Point(189, 262);
+            this.nudProb2decenas.Margin = new System.Windows.Forms.Padding(2);
+            this.nudProb2decenas.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudProb2decenas.Name = "nudProb2decenas";
+            this.nudProb2decenas.Size = new System.Drawing.Size(75, 20);
+            this.nudProb2decenas.TabIndex = 14;
+            this.nudProb2decenas.Value = new decimal(new int[] {
+            18,
+            0,
+            0,
+            131072});
+            // 
+            // nudProb3decenas
+            // 
+            this.nudProb3decenas.BackColor = System.Drawing.Color.LemonChiffon;
+            this.nudProb3decenas.DecimalPlaces = 2;
+            this.nudProb3decenas.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nudProb3decenas.Location = new System.Drawing.Point(189, 291);
+            this.nudProb3decenas.Margin = new System.Windows.Forms.Padding(2);
+            this.nudProb3decenas.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudProb3decenas.Name = "nudProb3decenas";
+            this.nudProb3decenas.Size = new System.Drawing.Size(75, 20);
+            this.nudProb3decenas.TabIndex = 15;
+            this.nudProb3decenas.Value = new decimal(new int[] {
+            25,
+            0,
+            0,
+            131072});
+            // 
+            // nudProb4decenas
+            // 
+            this.nudProb4decenas.BackColor = System.Drawing.Color.LemonChiffon;
+            this.nudProb4decenas.DecimalPlaces = 2;
+            this.nudProb4decenas.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nudProb4decenas.Location = new System.Drawing.Point(189, 321);
+            this.nudProb4decenas.Margin = new System.Windows.Forms.Padding(2);
+            this.nudProb4decenas.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudProb4decenas.Name = "nudProb4decenas";
+            this.nudProb4decenas.Size = new System.Drawing.Size(75, 20);
+            this.nudProb4decenas.TabIndex = 16;
+            this.nudProb4decenas.Value = new decimal(new int[] {
+            22,
+            0,
+            0,
+            131072});
+            // 
+            // nudProb5decenas
+            // 
+            this.nudProb5decenas.BackColor = System.Drawing.Color.LemonChiffon;
+            this.nudProb5decenas.DecimalPlaces = 2;
+            this.nudProb5decenas.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.nudProb5decenas.Location = new System.Drawing.Point(189, 350);
+            this.nudProb5decenas.Margin = new System.Windows.Forms.Padding(2);
+            this.nudProb5decenas.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.nudProb5decenas.Name = "nudProb5decenas";
+            this.nudProb5decenas.Size = new System.Drawing.Size(75, 20);
+            this.nudProb5decenas.TabIndex = 17;
+            this.nudProb5decenas.Value = new decimal(new int[] {
+            18,
+            0,
+            0,
+            131072});
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(80, 199);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(91, 13);
+            this.label11.TabIndex = 55;
+            this.label11.Text = "Decenas Pedidas";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(196, 199);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(49, 13);
+            this.label12.TabIndex = 56;
+            this.label12.Text = "Costo ($)";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(113, 227);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(34, 13);
+            this.label13.TabIndex = 57;
+            this.label13.Text = "0 - 15";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(107, 259);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(40, 13);
+            this.label14.TabIndex = 58;
+            this.label14.Text = "16 - 40";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(90, 290);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(57, 13);
+            this.label15.TabIndex = 59;
+            this.label15.Text = "Más de 40";
+            // 
+            // nudCosto0y15decenas
+            // 
+            this.nudCosto0y15decenas.BackColor = System.Drawing.Color.LemonChiffon;
+            this.nudCosto0y15decenas.DecimalPlaces = 2;
+            this.nudCosto0y15decenas.Location = new System.Drawing.Point(185, 225);
+            this.nudCosto0y15decenas.Margin = new System.Windows.Forms.Padding(2);
+            this.nudCosto0y15decenas.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.nudCosto0y15decenas.Name = "nudCosto0y15decenas";
+            this.nudCosto0y15decenas.Size = new System.Drawing.Size(75, 20);
+            this.nudCosto0y15decenas.TabIndex = 60;
+            this.nudCosto0y15decenas.Value = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            // 
+            // nudCosto16y40decenas
+            // 
+            this.nudCosto16y40decenas.BackColor = System.Drawing.Color.LemonChiffon;
+            this.nudCosto16y40decenas.DecimalPlaces = 2;
+            this.nudCosto16y40decenas.Location = new System.Drawing.Point(185, 257);
+            this.nudCosto16y40decenas.Margin = new System.Windows.Forms.Padding(2);
+            this.nudCosto16y40decenas.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.nudCosto16y40decenas.Name = "nudCosto16y40decenas";
+            this.nudCosto16y40decenas.Size = new System.Drawing.Size(75, 20);
+            this.nudCosto16y40decenas.TabIndex = 61;
+            this.nudCosto16y40decenas.Value = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            // 
+            // nudCostoMas40decenas
+            // 
+            this.nudCostoMas40decenas.BackColor = System.Drawing.Color.LemonChiffon;
+            this.nudCostoMas40decenas.DecimalPlaces = 2;
+            this.nudCostoMas40decenas.Location = new System.Drawing.Point(185, 288);
+            this.nudCostoMas40decenas.Margin = new System.Windows.Forms.Padding(2);
+            this.nudCostoMas40decenas.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.nudCostoMas40decenas.Name = "nudCostoMas40decenas";
+            this.nudCostoMas40decenas.Size = new System.Drawing.Size(75, 20);
+            this.nudCostoMas40decenas.TabIndex = 62;
+            this.nudCostoMas40decenas.Value = new decimal(new int[] {
+            40,
+            0,
+            0,
+            0});
             // 
             // frm_index
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(234)))), ((int)(((byte)(208)))));
-            this.ClientSize = new System.Drawing.Size(1087, 643);
+            this.ClientSize = new System.Drawing.Size(1380, 917);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frm_index";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "TP4 - Montecarlo - Grupo 7 - 4K2";
+            this.Text = "Trabajo Practico Final Simulacion - Ejercicio 8 - Toledo Antonio 81864";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frm_principal_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
@@ -942,6 +1327,15 @@ namespace TP_Final.Presentacion
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTablaCorrectivo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCorrectivoFinal)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb0decenas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb1decena)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb2decenas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb3decenas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb4decenas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudProb5decenas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCosto0y15decenas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCosto16y40decenas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudCostoMas40decenas)).EndInit();
             this.ResumeLayout(false);
 
     }
@@ -1002,5 +1396,27 @@ namespace TP_Final.Presentacion
         private System.Windows.Forms.DataGridView dgvPreventivoFinal;
         private System.Windows.Forms.GroupBox gbResultado;
         private System.Windows.Forms.Label lblResultado;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NumericUpDown nudProb4decenas;
+        private System.Windows.Forms.NumericUpDown nudProb3decenas;
+        private System.Windows.Forms.NumericUpDown nudProb2decenas;
+        private System.Windows.Forms.NumericUpDown nudProb1decena;
+        private System.Windows.Forms.NumericUpDown nudProb0decenas;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.NumericUpDown nudProb5decenas;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.NumericUpDown nudCosto16y40decenas;
+        private System.Windows.Forms.NumericUpDown nudCosto0y15decenas;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.NumericUpDown nudCostoMas40decenas;
     }
 }
